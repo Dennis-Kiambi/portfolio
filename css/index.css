@@ -37,12 +37,12 @@ body{
   background-color: #ede9df;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20pt; 
+  margin: 0 auto;
 }
 #man img{
   border-radius: 15px;
   box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
   float: right;
-  /* float: right; */
 }
 #coder img{
   border-radius: 15px;
