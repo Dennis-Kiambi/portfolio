@@ -1,10 +1,11 @@
 header>nav>ul>li{
   list-style-type: none;
   display: inline-block;
-  text-decoration: none;
   margin-right: 20pt;
   font-size: 16px;
-  
+}
+header>nav>ul>li>a{
+    text-decoration: none;
 }
 #man{
   color: black;
@@ -32,9 +33,10 @@ header>nav>ul>li{
   height: 400px;
   margin-left: 200pt;
   margin-right: 200pt;
+  margin-top: 100px;
 }
 body{
-  background-color: #ede9df;
+  background-image: linear-gradient(#fdfffc, #e2e2e2);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20pt; 
   margin: 0 auto;
@@ -64,7 +66,6 @@ h2{
   color: dimgray;
 }
 p{
-  /* border: 1px solid black; */
   width: 200pt;
   color: rgb(37, 94, 122);
 
@@ -80,6 +81,9 @@ p{
 }
 #coder>ul>li{
   list-style-type: none;
+  margin-right: 70%;
+  color: brown;
+  font-size: 22px;
 }
 nav>ul{
   margin-left: 60%;
@@ -88,7 +92,8 @@ nav>ul{
   position: fixed; 
   top: 0;
   width: 100%;
-  background-color: darkgrey;
+  background-color: #fdfffc;
+  box-shadow: 0px 0px 5px 5px #fdfffc;
 }
 #foot{
   font-size: 13px;
