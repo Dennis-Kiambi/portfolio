@@ -1,8 +1,10 @@
-nav>ul>li{
+header>nav>ul>li{
   list-style-type: none;
   display: inline-block;
-  text-decoration-style: none;
+  text-decoration: none;
   margin-right: 20pt;
+  font-size: 16px;
+  
 }
 #man{
   color: black;
@@ -17,12 +19,11 @@ nav>ul>li{
 }
 #coder{
   color: black;
-  border-radius: 15%;
   text-align: center;
-  /* list-style-type: none; */
   height: 400px;
   margin-left: 200pt;
   margin-right: 200pt;
+  margin-top: 70px;
 
 }
 #petrol{
@@ -58,10 +59,16 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50pt;
   text-align: center;
+  margin-top: 80px;
+}
+h2{
+  color: dimgray;
 }
 p{
   /* border: 1px solid black; */
   width: 200pt;
+  color: rgb(37, 94, 122);
+
 }
 #contact{
   float: right;
@@ -74,4 +81,19 @@ p{
 }
 #coder>ul>li{
   list-style-type: none;
+}
+nav>ul{
+  margin-left: 60%;
+  /* text-decoration: none; */
+}
+#nav{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  background-color: darkgrey;
+}
+#foot{
+  font-size: 13px;
+  margin-top: 10px;
+  border-top: 3px solid darkslategrey;
 }
