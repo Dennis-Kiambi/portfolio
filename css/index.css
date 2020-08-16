@@ -1,0 +1,42 @@
+nav>ul>li{
+  list-style-type: none;
+  font-style: normal;
+  font-stretch: ultra-expanded;
+  border: 1px dotted black;
+  display: inline-block;
+  text-decoration-style: none;
+}
+#man{
+  color: black;
+  border-radius: 15%;
+  text-align: center;
+}
+#coder{
+  color: black;
+  border-radius: 15%;
+  text-align: center;
+  list-style-type: none;
+}
+#petrol{
+  color: black;
+  border-radius: 15%;
+  text-align: center;
+}
+body{
+  background-color: #ede9df
+}
+#man img{
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
+  /* float: right; */
+}
+#coder img{
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
+  /* float: right; */
+}
+#petrol img{
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
+  /* float: right; */
+}
