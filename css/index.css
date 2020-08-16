@@ -1,42 +1,77 @@
 nav>ul>li{
   list-style-type: none;
-  font-style: normal;
-  font-stretch: ultra-expanded;
-  border: 1px dotted black;
   display: inline-block;
   text-decoration-style: none;
+  margin-right: 20pt;
 }
 #man{
   color: black;
   border-radius: 15%;
   text-align: center;
+  height: 400px;
+  margin-left: 200pt;
+  margin-right: 200pt;
+}
+#man>p #coder>p{
+  padding-top: 50pt;
 }
 #coder{
   color: black;
   border-radius: 15%;
   text-align: center;
-  list-style-type: none;
+  /* list-style-type: none; */
+  height: 400px;
+  margin-left: 200pt;
+  margin-right: 200pt;
+
 }
 #petrol{
   color: black;
   border-radius: 15%;
   text-align: center;
+  height: 400px;
+  margin-left: 200pt;
+  margin-right: 200pt;
 }
 body{
-  background-color: #ede9df
+  background-color: #ede9df;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt; 
 }
 #man img{
   border-radius: 15px;
   box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
+  float: right;
   /* float: right; */
 }
 #coder img{
   border-radius: 15px;
   box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
-  /* float: right; */
+  float: right;
 }
 #petrol img{
   border-radius: 15px;
   box-shadow: 0px 0px 12px 12px rgb(82, 91, 93);
-  /* float: right; */
+  float: right;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50pt;
+  text-align: center;
+}
+p{
+  /* border: 1px solid black; */
+  width: 200pt;
+}
+#contact{
+  float: right;
+  margin-right: 100px;
+}
+#about{
+  width: 50%;
+  float: left;
+  margin-left: 100px;
+}
+#coder>ul>li{
+  list-style-type: none;
 }
