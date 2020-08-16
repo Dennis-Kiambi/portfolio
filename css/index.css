@@ -23,7 +23,6 @@ header>nav>ul>li{
   height: 400px;
   margin-left: 200pt;
   margin-right: 200pt;
-  margin-top: 70px;
 
 }
 #petrol{
@@ -84,11 +83,10 @@ p{
 }
 nav>ul{
   margin-left: 60%;
-  /* text-decoration: none; */
-}
+  }
 #nav{
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  position: fixed; 
+  top: 0;
   width: 100%;
   background-color: darkgrey;
 }
