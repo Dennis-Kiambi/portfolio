@@ -67,7 +67,7 @@ h2{
 }
 p{
   width: 200pt;
-  color: rgb(37, 94, 122);
+  color: #062c18;
 
 }
 #contact{
@@ -82,8 +82,7 @@ p{
 #coder>ul>li{
   list-style-type: none;
   margin-right: 70%;
-  color: brown;
-  font-size: 22px;
+  font-size: 18px;
 }
 nav>ul{
   margin-left: 60%;
