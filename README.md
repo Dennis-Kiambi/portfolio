@@ -58,5 +58,5 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## [License](https://dennis-kiambi.github.io/portfolio/LICENSE.md)
 
-MIT © [Dennis Kiambi ](https://dennis-kiambi.github.io/portfolio/LICENSE.md)
+[MIT] © [Dennis Kiambi ](https://dennis-kiambi.github.io/portfolio/LICENSE.md)
 
